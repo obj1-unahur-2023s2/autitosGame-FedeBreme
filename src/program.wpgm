@@ -1,0 +1,121 @@
+import wollok.game.*
+import auto.*
+import paredes.*
+
+program miPrimerWollokGame {
+	
+	// límites del tablero de juego
+	game.width(15)
+	game.height(9)
+
+	// fondo del tablero de juego
+	game.boardGround("empedrado.jpg")
+
+	// agregamos a nuestro objeto auto
+	game.addVisual(auto)
+	
+	game.addVisual(paredDeLadrillos)
+	
+	game.addVisual(paredDeLadrillos2)
+	
+	game.addVisual(paredDeLadrillos3)
+	
+	game.addVisual(paredDeLadrillos4)
+	
+	game.addVisual(paredDeLadrillos5)
+	
+	game.addVisual(paredDeLadrillos6)
+	
+	game.addVisual(paredDeLadrillos7)
+	
+	game.addVisual(paredDeLadrillos8)
+	
+	game.addVisual(paredDeLadrillos9)
+	
+	game.addVisual(paredDeLadrillos10)
+	
+	game.addVisual(paredDeLadrillos11)
+	
+	game.addVisual(paredDeLadrillos12)
+	
+	game.addVisual(paredDeLadrillos13)
+	
+	game.addVisual(paredDeLadrillos14)
+	
+	game.addVisual(paredDeLadrillos15)
+	
+	game.addVisual(paredDeLadrillos16)
+	
+	game.addVisual(paredDeLadrillos17)
+	
+	game.addVisual(paredDeLadrillos18)
+	
+	game.addVisual(paredDeLadrillos19)
+	
+	game.addVisual(paredDeLadrillos20)
+	
+	game.addVisual(paredDeLadrillo)
+	
+	game.addVisual(paredDeLadrillo2)
+	
+	game.addVisual(paredDeLadrillo3)
+	
+	game.addVisual(paredDeLadrillo4)
+	
+	game.addVisual(paredDeLadrillo5)
+	
+	game.addVisual(paredDeLadrillo6)
+	
+	game.addVisual(paredDeLadrillo7)
+	
+	game.addVisual(paredDeLadrillo8)
+	
+	game.addVisual(paredDeLadrillo9)
+	
+	game.addVisual(paredDeLadrillo10)
+	
+	game.addVisual(paredDeLadrillo11)
+	
+	game.addVisual(paredDeLadrillo12)
+	
+	game.addVisual(paredDeLadrillo13)
+	
+	game.addVisual(paredDeLadrillo14)
+	
+	game.addVisual(paredDeLadrillo15)
+	
+	game.addVisual(paredDeLadrillo16)
+	
+	game.addVisual(paredDeLadrillo17)
+	
+	game.addVisual(paredDeLadrillo18)
+	
+	game.addVisual(paredDeLadrillo19)
+	
+	game.addVisual(paredDeLadrillo20)
+	
+	keyboard.up().onPressDo({
+		auto.arriba()
+	})
+	keyboard.down().onPressDo({
+		auto.abajo()
+	})
+	keyboard.left().onPressDo({
+		auto.izq()
+	})
+	keyboard.right().onPressDo({
+		auto.der()
+	})
+
+	// que arranque el juego!
+	game.start()
+}
+
+
+
+
+
+
+
+
+
